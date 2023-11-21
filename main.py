@@ -27,7 +27,7 @@ def main(length, width, start):
 
     img = Image.fromarray(field)  # преобразовали в изображение
     img.save('solution.png')  # сохранили изображение
-    print(f'Число черных клеток: {black_count}')
+    print(f'Количество черных клеток: {black_count}')
 
 
 if __name__ == '__main__':
